@@ -1,17 +1,21 @@
 /* Navbar Section */
+#myNavbar{
+    margin: 0;
+    padding: 0;
+}
 #titlebar{
-    width: 100vw;
     font-size: 30px;
     text-align: center;
     margin: 0;
+    
 }
 .navbar{
     margin: 0;
     padding: 0;
-    border-top: blueviolet solid 1px;
+    border-bottom: rgb(0, 162, 255) solid 2px;
 }
 .navbar-brand{
-    border-right: solid 1px blueviolet;
+    border-right: solid 1px rgb(0, 162, 255);
     margin: 0;
     padding-right: 20px;
     color: azure;
@@ -23,7 +27,8 @@
 .bgov{
     overflow: hidden;
     border-radius: 20px;
-    border: solid 1px blueviolet;
+    border: solid 1px rgb(0, 162, 255);
+    margin-bottom: 1vh;
 }
 .bgov2{
     overflow: hidden;
@@ -32,7 +37,7 @@
 
 /* Portfolio section */
 .pedestal{
-   max-height: 25vh;
+   max-height: 30vh;
    padding: 0px;
    margin-bottom: 1vh;
    opacity: .5;
@@ -62,7 +67,9 @@
     opacity: 1.0;
 }
 
-
+h4{
+    text-align: center;
+}
 
 
 
@@ -77,6 +84,6 @@ footer{
     height: 5vh;
     float: right;
     margin-top: 10vh;
-    border-top: blueviolet solid 2px;
+    border-top: rgb(0, 162, 255) solid 2px;
 
 }
