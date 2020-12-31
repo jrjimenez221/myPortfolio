@@ -17,7 +17,7 @@
     <div id="myNavbar" class="container-fluid">
         <nav class="row navbar navbar-expand-lg navbar-light bg-dark text-white-50">
 
-            <a class="navbar-brand text-light col-12 col-sm-2" href="#">
+            <a class="navbar-brand text-light col-12 col-sm-2 " href="#">
                 <img src="./assets/images/lionicon.jpg" width="30" height="30" class="d-inline-block align-top" alt="lionicon">
                 Jose Reynaldo Jimenez
             </a>
@@ -25,8 +25,8 @@
             <div id="navbarItems" class="col-12 col-sm-10">
                 <div class="navbar-nav col-12 col-md-4">
                     <a class="nav-item nav-link active text-info col-3 col-sm-2" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link text-white-50 col-3 col-sm-2" href="#">Contact</a>
-                    <a class="nav-item nav-link text-white-50 col-3 col-sm-2" href="#">Showcase</a>
+                    <a class="nav-item nav-link text-white-50 col-3 col-sm-2" href="./html/contact.html">Contact</a>
+                    <a class="nav-item nav-link text-white-50 col-3 col-sm-2" href="./html/showcase.html">Showcase</a>
                     
                     
                 </div>
@@ -43,7 +43,7 @@
         <header class="row align-self-center align-items-center bgov">
             <div class="clearfix col-12 text-white-50 bg-dark" style="padding: 1vh;">
                 <img src="./assets/images/Mini Rey.jpg" alt="MyToon" class="float-left" width="20%" style="margin-right: 1%; margin-top: 1vh;border-radius: 10%;">
-                <h3 style="text-align: center; ">Jose Reynaldo Jimenez </h3>
+                <h3 class="text-info" style="text-align: center; ">Jose Reynaldo Jimenez </h3>
                 <p style="text-align: center; font-size: 15px;">Aspiring Programmer</p>
                 <hr/>
                 <p>Just a dude learning to code. Born and raised in Dallas but been all around the United States while working multiple jobs. Expanding horizons and now looking 
@@ -56,15 +56,10 @@
         <div class="row justify-content-around text-white-50" style="margin-top: 5vh; padding-bottom: 2vh;">
             
             <div class="col-sm-7 col-12">
-                <!-- Facts -->
-                <div class="row bgov bg-dark">
-                    <h4 style="text-align: center;"> Facts</h4>
-                </div>
-
                 <!-- Interests -->
                 <div class="row bgov bg-dark ">
                     
-                    <h3 style="text-align: center; ">Insterests </h3>
+                    <h3 class="col-12" style="text-align: center; ">Insterests </h3>
                     <hr/>
                     <div class="row">
                         <div class="col-12">
@@ -77,6 +72,21 @@
                     </div>
                 
                 </div>
+                <!-- Facts -->
+                <div class="row bgov bg-dark">
+                    <h4 class="col-12" style="text-align: center;"> Facts</h4>
+                    <div class="row">
+                        <div class="col-12">
+                            <ul>
+                                <li>Simply learning is cool. Specifically psychology, philosophy and astronomy.</li>
+                                <li>Populating databases for one of my side projects is quite fun leading to me being very familiar with MYSQL</li>
+                                <li>If not coding or reading, I'll be gaming on Dark Souls & Destiny</li> 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                
             </div>
             <!-- What I know to do -->
             <div class="col-sm-4 col-12 bgov bg-dark text-white-50">
@@ -88,7 +98,7 @@
                         <ul>
                             <li>HTML, CSS, JS</li>
                             <li>MYSQL, Mongo</li>
-                            <li>Npm libraries including(eslint, sequelize, inquirer, handlebars and more)</li> 
+                            <li>Node/Npm libraries including(eslint, sequelize, inquirer, handlebars and more)</li> 
                             <li>Gitbash/Github</li>
                             <li>sa</li>
                             <li>sa</li> 
@@ -102,7 +112,7 @@
 
 
         <!-- Contact Info -->
-        <div class="row align-self-center align-items-center contact-Info bg-dark text-white-50 bgov" style="margin-top: 5vh; padding-bottom: 2vh;">
+        <div hidden class="row align-self-center align-items-center contact-Info bg-dark text-white-50 bgov" style="margin-top: 5vh; padding-bottom: 2vh;">
             <div class="clearfix col-12">
                 <h3 style="text-align: center;">Contact Info</h3><hr/>
             </div>   
@@ -133,56 +143,7 @@
                     (469)-387-8770
                 </button>
             </div>
-        </div>
-        <!-- Showcase  -->
-        <div class="row bg-dark bgov justify-content-around" style="margin-top: 10vh;">
-
-            <div class="clearfix col-12 text-white-50">
-                <h3 style="text-align: center;">Showcase</h3>
-            </div>
-
-
-            <button type="button" class="pedestal bgov2 col-12 col-md-3 bg-dark text-white-50" data-toggle="modal" data-target="#EmployeeManager">
-                <div  class="pedestal-title bg-dark"></div>
-                <p >Employee Tracker </p>
-                <img src="./assets/images/coolLoad.gif" width="100%" alt="Igris">
-            </button>
-            <button type="button" class="pedestal bgov2 col-12 col-md-3 bg-dark text-white-50" data-toggle="modal" data-target="#exampleModalCenter">
-                <div  class="pedestal-title bg-dark"></div>
-                <p >...Loading </p>
-                <img src="./assets/images/coolLoad.gif" width="100%">
-            </button>
-            <button type="button" class="pedestal bgov2 col-12 col-md-3 bg-dark text-white-50" data-toggle="modal" data-target="#exampleModalCenter">
-                <div  class="pedestal-title bg-dark"></div>
-                <p >...Loading </p>
-                <img src="./assets/images/coolLoad.gif" width="100%" >
-            </button>
-
-            
-            
-            <!-- Second Wave -->
-
-            <button type="button" class="pedestal bgov2 col-12 col-md-3 bg-dark text-white-50" data-toggle="modal" data-target="#exampleModalCenter">
-                <div  class="pedestal-title bg-dark"></div>
-                <p >...Loading </p>
-                <img src="./assets/images/coolLoad.gif" width="100%" alt="Igris">
-            </button>
-            <button type="button" class="pedestal bgov2 col-12 col-md-3 bg-dark text-white-50" data-toggle="modal" data-target="#exampleModalCenter">
-                <div  class="pedestal-title bg-dark"></div>
-                <p >...Loading </p>
-                <img src="./assets/images/coolLoad.gif" width="100%">
-            </button>
-
-            
-
-            <button type="button" class="pedestal bgov2 col-12 col-md-3 bg-dark text-white-50" data-toggle="modal" data-target="#exampleModalCenter">
-                <div  class="pedestal-title bg-dark"></div>
-                <p >...Loading </p>
-                <img src="./assets/images/coolLoad.gif" width="100%" >
-            </button>
-            
-
-        </div>
+        </div>        
         
     </div>
 
@@ -194,26 +155,7 @@
     
 
 
-<!-- Modals -->
-<div class="modal fade" id="EmployeeManager" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog " role="document">
-    <div class="modal-content bg-dark text-white-50" >
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle" >Employee Management System</h5>
-        <button type="button" class="close text-white-50" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true" >&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <img src="./assets/images/EMSFinalTitle.png" width="100%" alt="Igris">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+
     
 
 
