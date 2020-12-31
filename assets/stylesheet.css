@@ -1,4 +1,4 @@
-header{
+#titlebar{
     width: 100vw;
     font-size: 30px;
     text-align: center;
@@ -17,4 +17,41 @@ header{
 }
 .contact-Info{
     background-color: cornflowerblue;
+}
+.bgov{
+    overflow: hidden;
+    border-radius: 20px;
+    border: solid 1px blueviolet;
+}
+.pedestal{
+   max-height: 25vh;
+   padding: 0px;
+   margin-bottom: 1vh;
+}
+.pedestal img{
+    opacity: .5;
+    z-index: 1;
+}
+.pedestal img:hover{
+    opacity: 1.0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #333333;
+    width: 100%;
+    height: 5vh;
+    float: right;
+    margin-top: 10vh;
+    border-top: blueviolet solid 2px;
+
 }
