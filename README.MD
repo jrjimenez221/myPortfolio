@@ -1,7 +1,7 @@
 # Portfolio - Jose R Jimenez
 * https://jrjimenez221.github.io/myPortfolio/
 * Just a page to showcase my work and give some info on myself
-
+![portfolio demo](./assets/images/demo.png)
 ## Features
 * Homepage showing personal info and links to:  
     * Contact Info
